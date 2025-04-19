@@ -15,8 +15,7 @@ export const routes: Routes = [
         loadComponent: () => import('./pages/contact/contact-page.component'),
     },
     {
-        path: '',
-        pathMatch: 'full',
+        path: '**',
         redirectTo: 'about',
     },
 ];
