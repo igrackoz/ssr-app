@@ -2,6 +2,7 @@ import { Component, ChangeDetectionStrategy, inject, OnInit } from '@angular/cor
 import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
+  selector: 'about-page',
   standalone: true,
   imports: [],
   templateUrl: './about-page.component.html',
